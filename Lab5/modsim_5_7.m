@@ -1,0 +1,10 @@
+y =[  114.9410   80.8000   67.7680   60.8880   56.6530   53.8000   51.7590];
+x= [1.2500    1.5000    1.7500    2.0000    2.2500    2.500    2.7500];
+z=fittype('poly6');
+c=fit(x(:),y(:),z);
+step_size=0.001;
+z3=1:step_size:3;
+plot(z3,c(z3));
+hold on;
+plot(x,y,'d');
+legend('Fitted Curve','Data');
