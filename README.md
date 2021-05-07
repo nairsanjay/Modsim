@@ -1,2 +1,2 @@
 # Modsim Lab Scripts
-#For Modsim course at DAIICT
+For Modsim course at DAIICT
